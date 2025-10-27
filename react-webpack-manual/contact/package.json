@@ -1,7 +1,22 @@
 {
+  "name": "contact-app",
+  "version": "1.0.0",
+  "description": "Contact app remote app to use with Module Federation (Webpack manual)",
+  "main": "src/index.ts",
   "dependencies": {
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
+  },
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development",
+    "preview": "webpack serve --mode production",
+    "clean": "rm -rf dist",
+    "type-check": "tsc --noEmit",
+    "lint": "echo 'No linter configured'",
+    "serve:build": "npx serve dist -s -p 3001"
   },
   "devDependencies": {
     "@babel/core": "^7.28.5",

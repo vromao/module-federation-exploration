@@ -2,7 +2,7 @@
   "name": "portal-app",
   "version": "1.0.0",
   "description": "Portal app with Module Federation (Webpack manual)",
-  "main": "src/index.tsx",
+  "main": "src/index.ts",
   "scripts": {
     "dev": "webpack serve --mode development",
     "start": "webpack serve --mode development",
